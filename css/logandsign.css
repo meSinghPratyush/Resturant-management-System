@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Allison&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allison&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.background{
+    background:rgba(0, 0, 0, 0.7) url(../img/bkg.jpg);
+    background-size: cover;
+    background-blend-mode:darken;
+    
+}
+.mainbox{
+    text-align: center;
+}
+.text-large {
+    font-size: 50px;
+    font-family: Pacifico, cursive;
+    color: rgb(240, 167, 51);
+    padding-left: 30px;
+    text-align: center;
+}
+.text-extralarge {
+    margin-top: 2%;
+    font-size: 190px;
+    color: rgb(250, 2, 2);
+    font-family: 'Allison', cursive;
+}
+.button{
+    margin-top: 2%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-evenly;
+}
+.btn{
+    font-size: 3rem;
+    color:red;
+    background: none;
+    
+    border: 1px solid red;
+    border-radius: 5px;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
